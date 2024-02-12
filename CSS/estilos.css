@@ -1,0 +1,89 @@
+/*1.- títulos*/
+h1{/*gerepro cusco*/
+    color: #003049;
+    text-align: center;
+}
+h2{/*AULA VIRTUAL*/
+    /* este es del título principal: accion: desplazar el titulo principal etkt h2 */
+    /*nivel de abstracción en este codigo : (1-10):8 bueno+lo necesario*/
+    color:rgb(12, 12, 12); /*Mo001: black*/
+    /*font-size: 35px;*/
+    margin-top: -55px;/*poner puntualmente la imagen hacia arriba*/
+    margin-left: 370px;/*poner puntualmente la imagen a la izquierda*/
+}
+/*2.- párrafos*/
+p{/*bienvenido al aula virtual*/
+    color: white;
+    background-color: #c1121f;
+    padding: 20px;
+    border: 2px solid palegoldenrod;
+}
+.enlace-6{/*enlace logueo*/
+
+    margin: 100px 100px 100px 900px;/*si funciona pero no dentro de la imagen*//*okX2*/
+}
+/*3.- Bookmarks en  HTML */
+*{/*observado **/
+    margin: 0;
+    padding: 0;
+}
+/*4.- Imágenes con class en HTML*/
+.img-1{/*agamos historia*/
+    width: 270px;/*queda*/
+    border: 25px solid #AB2A3E;/*queda*/
+    margin: 0 -4px 0 0;/*nuevaModif _ _ _ -13px*/           /*queda*/
+    display: inline;/*queda*//*agregado*/
+}
+/*para manipular estas imágenes es importante hacerlo con bastante cuidado.*/
+/*ten en cuenta que imágen es!*/
+/*imágen grande es la base, requiere que se enblanquesca!!*/
+.img-2{/*aula virtual*/
+    width: 1270px;/*queda*//* *** */
+    margin: 6px 0 0 0;/*nuevaModif 5 _ _ _*/          /*queda*/
+    opacity: 45%;/*nuevaModif 80%*/                 /*queda*/
+}
+/*imagen superior izquierda, debo ponerlo en su lugar con borde especial*/
+/*.linker-1{/*este es el a un enlace hacia el logueo
+    margin: 100px 100px 100px 100px;
+}*/
+.img-3{/*bloque blanco ++ modificado 1*/
+    width: 950px;/*queda*/
+    margin-bottom: 84px;/*margin: 0 0 0 0;*//*Mo001*//*queda*/
+    margin-right: -16px;                    /*Mo001*//*agregado*/
+}
+.img-4{
+    width: 427px;/*nuevaModif 700 _ _ _*/           /*queda*/
+    /*margin: 0 0 0 0;*//*nuevaModif 5 _ _ _*/      /*agregado*/
+}
+/*5.- Pié de Página*/
+footer{/*etiqueta para el pie de página*/
+    position: relative;/*queda*/
+    margin-top: -10px;/*queda*/
+    width: 1090px;/*queda*//*puedes usar esto para el botón*/
+    padding: 90px;/*queda*/
+    clear: both;/*queda*/
+    background: black;/*queda*/
+    text-align: center;/*queda*/
+    color: #f06b6b;/*queda*/
+}
+.parrafo001{/**/
+    color: white;/*#f06b6b*//*queda*/
+    margin-left: 100px;/*queda*/
+}
+.parrafo000{/**/
+    text-decoration: none;/*queda*/
+    color: white;/*#f06b6b*//*queda*/
+    /*margin-right: 100px;*/
+}
+.text1{/*controla el link de la izq pie*/
+    padding: -10px; /*queda*/
+    float: left;/*queda*/
+    width: 45%;/*queda*/
+    text-align: center;/*queda*/
+}
+.text2{/*controla el parrafo de la derecha pie*/
+    padding: -5%; /*queda*/
+    float: right;/*queda*/
+    width: 45%;/*queda*/
+    text-align: center;/*queda*/
+}
